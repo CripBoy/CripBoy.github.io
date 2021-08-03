@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript Sketch Book</title>
+
+	<link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+<body>
+
+<span id="app">
+	<div id="editor">
+
+		<!-- stack of all added items -->
+		<div id="items-stack"></div>
+
+		<!-- create new blocks -->
+		<div id="add-item">
+
+			<!-- add code -->
+			<div data-opt="code" class="add-option">
+				<img src="/content/code.png" />
+			</div>
+
+			<!-- add paragraph -->
+			<div data-opt="paragraph" class="add-option">
+				<img src="/content/paragraph.png" />
+			</div>
+
+			<!-- add image -->
+			<div data-opt="image" class="add-option">
+				<img src="/content/image.png" />
+			</div>
+
+			<!-- add header -->
+			<div data-opt="header" class="add-option">
+				<img src="/content/header.png" />
+			</div>
+		</div>
+	</div>
+</span>
+
+<script type="module" src="/scripts/main.js"></script>
+</body>
+</html>
