@@ -1,4 +1,4 @@
-import {e} from "/scripts/util.js";
+import {e} from "./util.js";
 
 // TODO: make it better
 // replace a part of a string with another string

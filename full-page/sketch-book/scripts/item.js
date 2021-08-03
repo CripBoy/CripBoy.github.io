@@ -1,5 +1,5 @@
-import {$, e, getImageFromComputer} from "/scripts/util.js";
-import createEditor from "/scripts/editor.js";
+import {$, e, getImageFromComputer} from "./util.js";
+import createEditor from "./editor.js";
 
 const createItemContainer = () => {
 	const item = e("div", {className: "item"},
